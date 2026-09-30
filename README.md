@@ -1,6 +1,8 @@
 # On the Spectral Properties of Generative Denoiser Jacobians
-Code for "On the Spectral Properties of Generative Denoiser Jacobians"
 
+[[arXiv]](https://arxiv.org/abs/2609.36210)
+
+Code for "On the Spectral Properties of Generative Denoiser Jacobians"
 
 ## 2D Mixture-of-Gaussians experiment
 
@@ -26,14 +28,19 @@ The example image we provide `dog.png` comes from the ImageNet validation set. T
 
 Then, `optimize.py` implements the training algorithm that regularizes the model to increase eigenvalues. We pre-process the ImageNet training set as in [REPA](https://github.com/sihyun-yu/REPA), cropping to 256x256 and pre-extracting VAE features.
 
-### TODO:
-- Include eigenvalue computation script to recreate the eigenvalue statistics figures.
-- Provide trained SiT-S/B models with the proposed regularization.
-- Include the random perturbation regularizer.
+## TODO:
+- [ ] Include eigenvalue computation script to recreate the eigenvalue statistics figures.
+- [ ] Provide trained SiT-S/B models with the proposed regularization.
+- [ ] Include the random perturbation regularizer.
 
 
 ## Bibtex
 
 ```
-tba
+@article{graikos2026spectral,
+  title={On the spectral properties of generative denoiser Jacobians}, 
+  author={Graikos, Alexandros and Jojic, Nebojsa, and Samaras, Dimitris},
+  journal={arXiv preprint arXiv:2609.36210},
+  year={2026},
+}
 ```
