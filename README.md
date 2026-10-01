@@ -39,7 +39,7 @@ Then, `optimize.py` implements the training algorithm that regularizes the model
 ```
 @article{graikos2026spectral,
   title={On the spectral properties of generative denoiser Jacobians}, 
-  author={Graikos, Alexandros and Jojic, Nebojsa, and Samaras, Dimitris},
+  author={Graikos, Alexandros and Jojic, Nebojsa and Samaras, Dimitris},
   journal={arXiv preprint arXiv:2609.36210},
   year={2026},
 }
